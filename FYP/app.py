@@ -30,13 +30,13 @@ def download(content, fn, K):
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('./models/diabetes_model_u10.sav', 'rb'))
+diabetes_model = pickle.load(open('models/diabetes_model_u10.sav', 'rb'))
 
-heart_model = pickle.load(open('./models/heart_model.sav', 'rb'))
+heart_model = pickle.load(open('models/heart_model.sav', 'rb'))
 
-liver_model = pickle.load(open('./models/liver_model_u.sav', 'rb'))
+liver_model = pickle.load(open('models/liver_model_u.sav', 'rb'))
 
-kidney_model = pickle.load(open('./models/kidney_model_u13.sav', 'rb'))
+kidney_model = pickle.load(open('models/kidney_model_u13.sav', 'rb'))
 
 diabKeys = ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
 heartKeys = ['age','sex','cp','trestbps','chol','fbs','restecg','thalach','exang','oldpeak','slope','ca','thal']
